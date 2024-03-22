@@ -10,7 +10,7 @@ function closePopup(){
 fetch("http://localhost:3000/countries")
     .then(response => response.json())
     .then(countries => {
-        const btnContainer = document.querySelector("#newButtons");
+        const btnContainer = document.querySelector("#countries-button");
         countries.forEach(country => {
             const button = document.createElement("button");
             button.textContent = country.name;
@@ -28,7 +28,6 @@ fetch("http://localhost:3000/countries")
 //htne when us the class to edit something on css.
 
 function displayCountriesDetails(country){
-    // document.querySelector("#countriesName").textContent = country.name;
     document.querySelector("#countries-capital").textContent = country.capital;
     document.querySelector("#countries-language").textContent = country.language;
     document.querySelector("#countries-tipping").textContent = country.tipping;
