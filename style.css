@@ -48,13 +48,13 @@ h1 {
     float:left;
 }
 
-#countries-button{
+/* #countries-button{
     top: 50%;
     left:100% !important;
     border: none;
     transition: transform .2s ease-in-out !important;
     transform: translateX(100%);
-}
+} */
 
 .open-popup{
     visibility: visible;
