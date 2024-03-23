@@ -1,12 +1,3 @@
-// let popup = document.getElementById("popup");
-
-// function openPopup(){
-//     popup.classList.add("open-popup");
-// }
-// function closePopup(){
-//     popup.classList.remove("open-popup");
-// }
-
 fetch("http://localhost:3000/countries")
     .then(response => response.json())
     .then(countries => {
@@ -14,8 +5,10 @@ fetch("http://localhost:3000/countries")
         countries.forEach(country => {
             const button = document.createElement("button");
             button.textContent = country.name;
+            button.classList.add("btn");
             button.addEventListener("click", () => {
                 displayCountriesDetails(country);
+                document.getElementById("countryName").textContent = country.name;
             });
             btnContainer.appendChild(button);
         });

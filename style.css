@@ -5,99 +5,83 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    font-family: 'Syncopate';
+    justify-content: center; /* Center horizontally */
+    align-items: left; /* Center vertically */
 }
 
 h1 {
     text-align: center;
-    font-family: 'Syncopate';
     font-size: 44px;
     font-weight: bolder;
     color: aliceblue;
-}
-#country-information {
-  font-family: 'Syncopate';
-  color: aliceblue;
-  float:left;
-}
-
-#newButtons{
-  opacity: 0.5;
-}
-
-#countries-button{
-  opacity: 1;
 }
 
 .container {
   width: 100%;
   height:100vh;
   display: flex;
+  flex-direction: column;
 }
+
+#title {
+  text-align: center;
+  font-size: 44px;
+  font-weight: bolder;
+  color: aliceblue;
+  margin-bottom: 20px; /* Add some space below the title */
+}
+/* the countries information box */
+#country-information{
+  color: aliceblue;
+  float:left;
+  box-shadow: -2px 1px 19px 11px rgba(127,219,219,0.43) inset;
+  border-radius: 4px;
+  display: center;
+  top: center;
+  height: auto;
+}
+#country-information ul{
+  list-style: none;
+  padding: 0; /* Remove default padding */
+  margin: 0;
+}
+
+/* The background of the buttons */
+#countries-button{
+  width:450px;
+  height: auto;
+  border: none;
+  background-color: transparent;
+  box-shadow: -2px 1px 19px 11px rgba(127,219,219,0.43) inset;
+}
+
+
 
 .btn {
-    padding: 10px 60px;
-    border: 0;
-    outline: none;
-    cursor: pointer;
-    font-size: 22px;
-    font-weight: 500;
-    border-radius: 30px;
-}
-
-.popup{
-    width: 1000px;
-    height:auto;
-    background: #fff;
-    border-radius: 6px;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0.1);
-    padding: 0 30px 30px;
-    color: #333;
-    transition: transform 0.4s, top 0.4s;
-    float:left;
-}
-
-
-
-.open-popup{
-    visibility: visible;
-    /*float: right;
-    top: 50%; 
-    transform: translate(-50%, -50%) scale(1); */
-    right: 0px !important;
-    left: auto !important;
-    transform: translateX(0);
-}
-
-/* .popup img{
-    width: 100px;
-    margin-top: -50px;
-    border-radius: 50%;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-} */
-.popup h2{
-    font-size: 38px;
-    font-weight: 500;
-    margin: 30px 0 10px;
-}
-
-/* .doneButton {
-  width: 100%;
-  margin-top: 50px;
-  padding: 10px 0;
-  background: #6fd649;
-  color: #fff;
-  border: 0;
+  float:left;
+  padding: 10px 60px;
+  border: 0.1px solid transparent; /* Add border */
   outline: none;
-  font-size: 18px;
-  border-radius: 4px;
   cursor: pointer;
-  box-shadow: 0 5px 5px rgba(0,0,0,0.2);
-} */
+  font-family: 'Syncopate';
+  font-size: auto;
+  font-weight: 500;
+  border-radius: 30px; /* Make it round */
+  background-color: transparent; /* Make the background transparent */
+  color: aliceblue; /* Text color */
+  transition: all 0.3s ease; /* Add transition for smooth effect */
+}
+
+.btn:hover {
+  opacity: 0.5;
+  background-color: rgba(255, 255, 255, 0.1); /* Change background color on hover */
+  border-color: rgb(9, 9, 10); /* Change border color on hover */
+}
+
 
  #earth {
-    position: relative;
+    position: center;
     max-width: 100%;
     max-height: 100%;
     height: 300px;
