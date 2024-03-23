@@ -14,13 +14,24 @@ h1 {
     font-weight: bolder;
     color: aliceblue;
 }
+#country-information {
+  font-family: 'Syncopate';
+  color: aliceblue;
+  float:left;
+}
+
+#newButtons{
+  opacity: 0.5;
+}
+
+#countries-button{
+  opacity: 1;
+}
 
 .container {
-    width: 100%;
-    height:100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height:100vh;
+  display: flex;
 }
 
 .btn {
@@ -43,18 +54,11 @@ h1 {
     transform: translate(-50%, -50%) scale(0.1);
     padding: 0 30px 30px;
     color: #333;
-    visibility: hidden;
     transition: transform 0.4s, top 0.4s;
     float:left;
 }
 
-/* #countries-button{
-    top: 50%;
-    left:100% !important;
-    border: none;
-    transition: transform .2s ease-in-out !important;
-    transform: translateX(100%);
-} */
+
 
 .open-popup{
     visibility: visible;
@@ -77,19 +81,20 @@ h1 {
     font-weight: 500;
     margin: 30px 0 10px;
 }
- .doneButton {
-    width: 100%;
-    margin-top: 50px;
-    padding: 10px 0;
-    background: #497dd6;
-    color: #fff;
-    border: 0;
-    outline: none;
-    font-size: 18px;
-    border-radius: 4px;
-    cursor: pointer;
-    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
- }
+
+/* .doneButton {
+  width: 100%;
+  margin-top: 50px;
+  padding: 10px 0;
+  background: #6fd649;
+  color: #fff;
+  border: 0;
+  outline: none;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+} */
 
  #earth {
     position: relative;

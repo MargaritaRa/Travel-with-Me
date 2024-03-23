@@ -9,11 +9,17 @@
 </head>
 <body>
     <h1 id="title">Where should I go next?</h1>
-    <div class="container" id="newButtons">
-        <button id="countries-button" type="submit" name="popupBtn" onclick="openPopup()"><span id="countries" ></span></button>
-            <div class="popup" id="popup">
-                <!-- <img src="https://lh3.googleusercontent.com/pw/AP1GczN6oxwwglVGWN23Vq_m5B-X9W-4tmGmOdWCqCnojW49_NjAgeN9MkwtLh9TUG5o53mrccIM2Ps_Y-fRqef2H95VuzVOqfafDeARznOddllo7YbcVKdw=w2400"> -->
-                <h2 id="countryName" name="nameOfCountry">Name of country</h2>
+    <table>
+        <th id="originalBtn">
+            <div id="newButtons">
+                <button id="countries-button" type="submit"></button>
+            </div>    
+        </th>
+        <th id="the globe">
+            <div id="earth"></div>
+        </th>
+        <th id="country-information">
+            <h2 id="countryName" name="nameOfCountry">Name of country</h2>
                     <ul id="countryInformation">
                         <li><b>Capital City: </b><span id="countries-capital"></span></li>
                         <li><b>Language Mainly Spoken: </b> <span id="countries-language"></span></li>
@@ -23,9 +29,15 @@
                         <li><b>Passport/Visa: </b><span id="countries-passportVisa"></span></li>
                         <li><b>Foods to try: </b><span id="countries-food"></span></li>
                     </ul>
-                <button type="button" id="doneButton" name="done" onclick="closePopup()">Done</button>
-            </div>
-    </div>
-    <div id="earth"></div>
+                <!-- <button type="button" id="doneButton" name="done" onclick="closePopup()">Done</button> -->
+        </th>
+    </table>
+
+    
+            <!-- <div class="popup" id="popup">
+                 <img src="https://lh3.googleusercontent.com/pw/AP1GczN6oxwwglVGWN23Vq_m5B-X9W-4tmGmOdWCqCnojW49_NjAgeN9MkwtLh9TUG5o53mrccIM2Ps_Y-fRqef2H95VuzVOqfafDeARznOddllo7YbcVKdw=w2400">
+                
+            </div> -->
+    
 </body>
 </html>
