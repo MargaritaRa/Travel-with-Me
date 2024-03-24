@@ -82,7 +82,7 @@ h1 {
 }
 
 .btn {
-  padding: 10px 6px;
+  padding: 10px 10px;
   outline: none;
   cursor: pointer;
   font-family: 'Syncopate';
@@ -93,21 +93,6 @@ h1 {
   color: aliceblue; /* Text color */
   transition: all 0.3s ease; /* Add transition for smooth effect */
 }
-
-/* .btn {
-  float:left;
-  padding: 10px 60px;
-  border: 0.1px solid transparent; 
-  outline: none;
-  cursor: pointer;
-  font-family: 'Syncopate';
-  font-size: auto;
-  font-weight: 500;
-  border-radius: 30px; 
-  background-color: transparent; 
-  color: aliceblue; 
-  transition: all 0.3s ease; 
-} */
 
 .btn:hover {
   opacity: 0.5;
