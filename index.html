@@ -31,15 +31,20 @@
                         <li><b>Passport/Visa: </b><span id="countries-passportVisa"></span></li>
                         <li><b>Foods to try: </b><span id="countries-food"></span></li>
                     </ul>
-                <!-- <button type="button" id="doneButton" name="done" onclick="closePopup()">Done</button> -->
         </td>
     </table>
-
-    
-            <!-- <div class="popup" id="popup">
-                 <img src="https://lh3.googleusercontent.com/pw/AP1GczN6oxwwglVGWN23Vq_m5B-X9W-4tmGmOdWCqCnojW49_NjAgeN9MkwtLh9TUG5o53mrccIM2Ps_Y-fRqef2H95VuzVOqfafDeARznOddllo7YbcVKdw=w2400">
-                
-            </div> -->
-    
+    <br>
+    <br>
+    <div class="container">
+        <form id="todo-form">
+            <div class="field">
+                <h3><b>Decisions Decisions</b></h3>
+                <p id="instructions">Write down the countries you’d like to visit below, and as you travel to each country, narrow down your choices for the next place.</p>
+                <input id="new_todo" type="text" placeholder="Where to?" />
+                <input type="submit" id="addToGo" class="btn" value="submit" />
+            </div>
+            <div id="todo_container"></div>
+        </form>
+    </div>
 </body>
 </html>

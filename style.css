@@ -1,16 +1,27 @@
 body {
     height: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), URL("https://lh3.googleusercontent.com/pw/AP1GczPOz00wvKGvXy6fDrmyq5Qko_QbW7bStZZ9hH0M5KT-4_dyWEnVfrOjipbOjguqDAoldYCYuP5viZb_TEMtyYwRXn_mDLWfVfDSVNTlAznsvso1QB99=w2400");
+    background-image: URL("https://lh3.googleusercontent.com/pw/AP1GczPOz00wvKGvXy6fDrmyq5Qko_QbW7bStZZ9hH0M5KT-4_dyWEnVfrOjipbOjguqDAoldYCYuP5viZb_TEMtyYwRXn_mDLWfVfDSVNTlAznsvso1QB99=w2400");
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    font-family: 'Syncopate';
     justify-content: center; /* Center horizontally */
     align-items: left; /* Center vertically */
 }
 
+/* body {
+  height: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), URL("https://lh3.googleusercontent.com/pw/AP1GczPOz00wvKGvXy6fDrmyq5Qko_QbW7bStZZ9hH0M5KT-4_dyWEnVfrOjipbOjguqDAoldYCYuP5viZb_TEMtyYwRXn_mDLWfVfDSVNTlAznsvso1QB99=w2400");
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: left;
+} */
+
 h1 {
+    font-family: 'Syncopate';
     text-align: center;
     font-size: 44px;
     font-weight: bolder;
@@ -35,8 +46,8 @@ h1 {
 #country-information{
   color: aliceblue;
   float:left;
-  box-shadow: -2px 1px 19px 11px rgba(127,219,219,0.43) inset;
-  border-radius: 4px;
+  box-shadow: -2px 1px 50px 20px rgba(14, 15, 15, 0.43) inset;
+  border-radius: 10px;
   display: center;
   top: center;
   height: auto;
@@ -52,16 +63,26 @@ h1 {
   width:450px;
   height: auto;
   border: none;
+  border-radius: 10px;
   background-color: transparent;
-  box-shadow: -2px 1px 19px 11px rgba(127,219,219,0.43) inset;
+  box-shadow: -2px 1px 50px 20px rgba(14, 15, 15, 0.43) inset;
 }
 
+  #todo-form {
+    background-color: transparent;
+    width: 50%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Add padding for spacing inside the box */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
 
+#addToGo.btn{
+  color: black;
+}
 
 .btn {
-  float:left;
-  padding: 10px 60px;
-  border: 0.1px solid transparent; /* Add border */
+  padding: 10px 6px;
   outline: none;
   cursor: pointer;
   font-family: 'Syncopate';
@@ -72,6 +93,21 @@ h1 {
   color: aliceblue; /* Text color */
   transition: all 0.3s ease; /* Add transition for smooth effect */
 }
+
+/* .btn {
+  float:left;
+  padding: 10px 60px;
+  border: 0.1px solid transparent; 
+  outline: none;
+  cursor: pointer;
+  font-family: 'Syncopate';
+  font-size: auto;
+  font-weight: 500;
+  border-radius: 30px; 
+  background-color: transparent; 
+  color: aliceblue; 
+  transition: all 0.3s ease; 
+} */
 
 .btn:hover {
   opacity: 0.5;
@@ -108,4 +144,8 @@ h1 {
     100% {
       background-position: 630px 0;
     }
+  }
+
+  #todo-form{
+    background-color: aliceblue;
   }
