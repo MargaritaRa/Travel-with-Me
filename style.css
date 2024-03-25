@@ -1,7 +1,6 @@
 body {
     height: 100%;
     background-image: URL("./image/DR\ Beach.jpg");
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.95);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -44,6 +43,7 @@ body.dark-theme {
   width: 30px;
   cursor: pointer;
   float: right;
+  top: 10%;
 }
 
 h1 {
