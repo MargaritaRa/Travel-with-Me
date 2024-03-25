@@ -9,7 +9,7 @@ body {
 }
 body.dark-theme {
   background-image: none;
-  background-color: #212121;
+  background-color: #02011c;
 }
 
 .dark-theme #earth {
@@ -70,14 +70,22 @@ h1 {
 }
 /* the countries information box */
 #country-information{
-  color: var(--primary-color);
-  float:left;
-  box-shadow: -2px 1px 50px 20px rgba(14, 15, 15, 0.43) inset;
-  border-radius: 10px;
-  display: center;
-  top: center;
-  height: auto;
+color: var(--primary-color);
+padding-left: 10px;
+/* From https://css.glass */
+background: rgba(31, 25, 25, 0.24);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.9px);
+-webkit-backdrop-filter: blur(2.9px);
+border: 1px solid rgba(31, 25, 25, 0.37);
 }
+
+span {
+  text-shadow: 10px 10px 20px #273b37;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 #country-information ul{
   list-style: none;
   padding: 0; /* Remove default padding */
@@ -160,5 +168,3 @@ h1 {
   #todo-form{
     background-color: var(--primary-color);
   }
-
-  
