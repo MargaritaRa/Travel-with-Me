@@ -57,3 +57,28 @@ document.addEventListener('mouseenter', event => {
 document.addEventListener('mouseleave', event => {
     document.getElementById("instructions").style.color = "black";
 });
+
+//
+const icon = document.getElementById('icon');
+icon.onclick = function(){
+    document.body.classList.toggle("dark-theme");
+    if(document.body.classList.contains("dark-theme")){
+        icon.src = "./image/transparent-empty-moon.png";
+        document.body.style.backgroundImage = 'none';
+    }else{
+        con.src = "./image/transparent-moon.png";
+        document.body.style.backgroundImage = 'url("./image/DR\ Beach.jpg")'; // Add back the background image
+    }
+}
+
+//
+icon.onclick = function(){
+    document.body.classList.toggle("dark-theme");
+    if(document.body.classList.contains("dark-theme")){
+        icon.src = "./image/transparent-empty-moon.png";
+        document.body.style.backgroundImage = 'none'; // Remove background image
+    } else {
+        icon.src = "./image/transparent-moon.png";
+        document.body.style.backgroundImage = 'url("https://lh3.googleusercontent.com/pw/AP1GczPOz00wvKGvXy6fDrmyq5Qko_QbW7bStZZ9hH0M5KT-4_dyWEnVfrOjipbOjguqDAoldYCYuP5viZb_TEMtyYwRXn_mDLWfVfDSVNTlAznsvso1QB99=w2400")'; // Add back the background image
+    }
+}
