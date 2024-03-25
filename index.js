@@ -52,10 +52,10 @@ function handleDelete(event) {
 }
 
 document.addEventListener('mouseenter', event => {
-    document.getElementById("instructions").style.color = "blue";
+    document.getElementById("instructions").style.color = "aliceblue";
 });
 document.addEventListener('mouseleave', event => {
-    document.getElementById("instructions").style.color = "black";
+    document.getElementById("instructions").style.color = "#b5d09b";
 });
 
 //

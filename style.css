@@ -110,10 +110,6 @@ span {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
 }
 
-#addToGo.btn{
-  color: var(--primary-color);
-}
-
 .btn {
   padding: 10px 10px;
   outline: none;
@@ -165,6 +161,16 @@ span {
     }
   }
 
+  #addToGo.btn{
+    color:var(--primary-color);
+  }
+
   #todo-form{
-    background-color: var(--primary-color);
+    color: var(--primary-color);
+    background: rgba(31, 25, 25, 0.24);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.9px);
+    -webkit-backdrop-filter: blur(2.9px);
+    border: 1px solid rgba(31, 25, 25, 0.37);
   }
