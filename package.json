@@ -1,0 +1,336 @@
+{
+    "countries": 
+    [
+        {
+            "id": 1,
+            "name": "United States of America",
+            "capital": "Washington DC",
+            "language": "English",
+            "tipping": "10%-20%",
+            "hello": "Hello",
+            "thankYou": "Thank you",
+            "passportVisa": "ESTA (for eligible countries) or Visa Waiver Program for short visits; Visa required for longer stays",
+            "food": "Hamburgers, Fried Chicken, and Mac'n'cheese"
+        },
+        {
+            "id": 2,
+            "name": "Japan",
+            "capital": "Tokyo",
+            "language": "Japanese",
+            "tipping": "No tipping Country",
+            "hello": "Konichiwa",
+            "thankYou": "Arrigato Gozimas",
+            "passportVisa": "Visa required for most visitors",
+            "food": "Ramen, Wagyu, and Sushi"
+        },
+        {
+            "id": 3,
+            "name": "France",
+            "capital": "Paris",
+            "language": "French",
+            "tipping": "Generally included in the bill, additional tipping for exceptional service is appreciated",
+            "hello": "Bonjour",
+            "thankYou": "Merci",
+            "passportVisa": "Schengen Visa (for most visitors)",
+            "food": "Croissants, Baguettes, Coq au Vin"
+        },
+        {
+            "id": 4,
+            "name": "China",
+            "capital": "Beijing",
+            "language": "Mandarin Chinese",
+            "tipping": "Tipping is not customary",
+            "hello": "Nǐ hǎo (你好)",
+            "thankYou": "Xièxiè (谢谢)",
+            "passportVisa": "Chinese Visa",
+            "food": "Dim Sum, Peking Duck, Fried Rice"
+        },
+        {
+            "id": 5,
+            "name": "Brazil",
+            "capital": "Brasília",
+            "language": "Portuguese",
+            "tipping": "Around 10% is customary",
+            "hello": "Olá",
+            "thankYou": "Obrigado (for males) / Obrigada (for females)",
+            "passportVisa": "Brazilian Visa (for most visitors)",
+            "food": "Feijoada, Coxinha, Pão de Queijo"
+        },
+        {
+            "id": 6,
+            "name": "India",
+            "capital": "New Delhi",
+            "language": "Hindi (along with many others)",
+            "tipping": "Tipping is not mandatory but appreciated, typically around 10%",
+            "hello": "Namaste (नमस्ते)",
+            "thankYou": "Dhanyavaad (धन्यवाद)",
+            "passportVisa": "Indian Visa (for most visitors)",
+            "food": "Curry, Biryani, Samosas"
+        },
+        {
+            "id": 7,
+            "name": "Australia",
+            "capital": "Canberra",
+            "language": "English",
+            "tipping": "Tipping is not obligatory but rounding up the bill or leaving 10% is common in restaurants and cafes",
+            "hello": "G'day",
+            "thankYou": "Cheers or Thanks",
+            "passportVisa": "Electronic Travel Authority (ETA) or Visitor Visa (for most visitors)",
+            "food": "Vegemite, BBQ, Meat Pies"
+        },
+        {
+            "id": 8,
+            "name": "Jamaica",
+            "capital": "Kingston",
+            "language": "English",
+            "tipping": "Around 10% is customary",
+            "hello": "Hello",
+            "thankYou": "Thank you",
+            "passportVisa": "Visa required for most visitors",
+            "food": "Ackee and Saltfish, Jerk Chicken, Patties"
+        },
+        {
+            "id": 9,
+            "name": "Bahamas",
+            "capital": "Nassau",
+            "language": "English",
+            "tipping": "Around 10%-15% is customary",
+            "hello": "Hello",
+            "thankYou": "Thank you",
+            "passportVisa": "Visa required for some countries; check specific requirements",
+            "food": "Conch Salad, Cracked Conch, Bahamian Rock Lobster"
+        },
+        {
+            "id": 10,
+            "name": "Barbados",
+            "capital": "Bridgetown",
+            "language": "English",
+            "tipping": "10%-15% is customary",
+            "hello": "Hello",
+            "thankYou": "Thank you",
+            "passportVisa": "Visa required for most visitors",
+            "food": "Flying Fish, Cou-cou, Macaroni Pie"
+        },
+        {
+            "id": 11,
+            "name": "Dominican Republic",
+            "capital": "Santo Domingo",
+            "language": "Spanish",
+            "tipping": "10%-15% is customary",
+            "hello": "Hola",
+            "thankYou": "Gracias",
+            "passportVisa": "Visa not required for most visitors for short stays; Check specific requirements for longer stays",
+            "food": "Mangu, Sancocho, Tostones"
+        },
+        {
+            "id": 12,
+            "name": "Canada",
+            "capital": "Ottawa",
+            "language": "English, French",
+            "tipping": "10%-15% is customary",
+            "hello": "Hello / Bonjour",
+            "thankYou": "Thank you / Merci",
+            "passportVisa": "Electronic Travel Authorization (eTA) for visa-exempt visitors; Visa required for some countries",
+            "food": "Poutine, Maple Syrup, Nanaimo Bars"
+        },
+        {
+            "id": 13,
+            "name": "Germany",
+            "capital": "Berlin",
+            "language": "German",
+            "tipping": "Tipping is common, typically 5-10%",
+            "hello": "Hallo",
+            "thankYou": "Danke",
+            "passportVisa": "Schengen Visa (for most visitors)",
+            "food": "Bratwurst, Sauerkraut, Pretzels"
+        },
+        {
+            "id": 14,
+            "name": "Italy",
+            "capital": "Rome",
+            "language": "Italian",
+            "tipping": "Service charge often included; additional tipping not mandatory",
+            "hello": "Ciao",
+            "thankYou": "Grazie",
+            "passportVisa": "Schengen Visa (for most visitors)",
+            "food": "Pizza, Pasta, Gelato"
+        },
+        {
+            "id": 15,
+            "name": "United Kingdom",
+            "capital": "London",
+            "language": "English",
+            "tipping": "10%-15% is customary",
+            "hello": "Hello",
+            "thankYou": "Thank you",
+            "passportVisa": "Visa required for some countries; check specific requirements",
+            "food": "Fish and Chips, Roast Beef, Full English Breakfast"
+        },
+        {
+            "id": 16,
+            "name": "Spain",
+            "capital": "Madrid",
+            "language": "Spanish",
+            "tipping": "10%-15% is customary",
+            "hello": "Hola",
+            "thankYou": "Gracias",
+            "passportVisa": "Schengen Visa (for most visitors)",
+            "food": "Paella, Tapas, Jamón Ibérico"
+        },
+        {
+            "id": 17,
+            "name": "South Africa",
+            "capital": "Pretoria (administrative), Cape Town (legislative), Bloemfontein (judicial)",
+            "language": "Afrikaans, English, Zulu, Xhosa, and others",
+            "tipping": "10%-15% is customary",
+            "hello": "Sawubona (Zulu), Hallo (Afrikaans), Hello (English)",
+            "thankYou": "Ngiyabonga (Zulu), Dankie (Afrikaans), Thank you (English)",
+            "passportVisa": "Visa required for most visitors",
+            "food": "Biltong, Boerewors, Bunny Chow"
+        },
+        {
+            "id": 18,
+            "name": "Mexico",
+            "capital": "Mexico City",
+            "language": "Spanish",
+            "tipping": "10%-15% is customary",
+            "hello": "Hola",
+            "thankYou": "Gracias",
+            "passportVisa": "Visa not required for most visitors for short stays; check specific requirements",
+            "food": "Tacos, Tamales, Guacamole"
+        },
+        {
+            "id": 19,
+            "name": "Egypt",
+            "capital": "Cairo",
+            "language": "Arabic",
+            "tipping": "10%-15% is customary",
+            "hello": "Marhaba (مرحبا)",
+            "thankYou": "Shukran (شكرا)",
+            "passportVisa": "Visa required for most visitors; some nationalities eligible for e-visa or visa on arrival",
+            "food": "Koshari, Ful Medames, Shawarma"
+        },
+        {
+            "id": 20,
+            "name": "Argentina",
+            "capital": "Buenos Aires",
+            "language": "Spanish",
+            "tipping": "10%-15% is customary",
+            "hello": "Hola",
+            "thankYou": "Gracias",
+            "passportVisa": "Visa required for some countries; check specific requirements",
+            "food": "Asado, Empanadas, Dulce de Leche"
+        },
+        {
+            "id": 21,
+            "name": "Colombia",
+            "capital": "Bogotá",
+            "language": "Spanish",
+            "tipping": "10%-15% is customary",
+            "hello": "Hola",
+            "thankYou": "Gracias",
+            "passportVisa": "Visa not required for most visitors for short stays; check specific requirements",
+            "food": "Bandeja Paisa, Arepas, Ajiaco"
+        },
+        {
+            "id": 22,
+            "name": "Peru",
+            "capital": "Lima",
+            "language": "Spanish",
+            "tipping": "10%-15% is customary",
+            "hello": "Hola",
+            "thankYou": "Gracias",
+            "passportVisa": "Visa not required for most visitors for short stays; check specific requirements",
+            "food": "Ceviche, Lomo Saltado, Cuy"
+        },
+        {
+            "id": 23,
+            "name": "Chile",
+            "capital": "Santiago",
+            "language": "Spanish",
+            "tipping": "10%-15% is customary",
+            "hello": "Hola",
+            "thankYou": "Gracias",
+            "passportVisa": "Visa required for some countries; check specific requirements",
+            "food": "Empanadas, Asado, Pastel de Choclo"
+        },
+        {
+            "id": 24,
+            "name": "South Korea",
+            "capital": "Seoul",
+            "language": "Korean",
+            "tipping": "Tipping is not customary",
+            "hello": "Annyeonghaseyo (안녕하세요)",
+            "thankYou": "Gamsahamnida (감사합니다)",
+            "passportVisa": "Visa required for most visitors",
+            "food": "Kimchi, Bibimbap, Bulgogi"
+        },
+        {
+            "id": 25,
+            "name": "Thailand",
+            "capital": "Bangkok",
+            "language": "Thai",
+            "tipping": "Tipping is not expected but appreciated, especially in tourist areas",
+            "hello": "Sawasdee (สวัสดี)",
+            "thankYou": "Khob khun (ขอบคุณ)",
+            "passportVisa": "Visa exempt for many countries for short stays; Visa on arrival available for some nationalities",
+            "food": "Pad Thai, Tom Yum Goong, Green Curry"
+        },
+        {
+            "id": 26,
+            "name": "Vietnam",
+            "capital": "Hanoi",
+            "language": "Vietnamese",
+            "tipping": "Tipping is not expected but appreciated, particularly in tourist areas",
+            "hello": "Xin chào",
+            "thankYou": "Cảm ơn",
+            "passportVisa": "Visa required for most visitors; some nationalities eligible for e-visa or visa on arrival",
+            "food": "Pho, Banh Mi, Bun Cha"
+        },
+        {
+            "id": 27,
+            "name": "Switzerland",
+            "capital": "Bern",
+            "language": "German, French, Italian, Romansh",
+            "tipping": "Service charge often included; rounding up the bill is common",
+            "hello": "Hallo (German), Bonjour (French), Buongiorno (Italian), Allegra (Romansh)",
+            "thankYou": "Danke (German), Merci (French), Grazie (Italian), Grazia (Romansh)",
+            "passportVisa": "Schengen Visa (for most visitors)",
+            "food": "Fondue, Raclette, Rösti"
+        },
+        {
+            "id": 28,
+            "name": "Greece",
+            "capital": "Athens",
+            "language": "Greek",
+            "tipping": "Tipping is not obligatory, but rounding up the bill or leaving 5-10% is appreciated",
+            "hello": "Yasou (Γεια σου)",
+            "thankYou": "Efharistó (Ευχαριστώ)",
+            "passportVisa": "Schengen Visa (for most visitors)",
+            "food": "Moussaka, Souvlaki, Greek Salad"
+        },
+        {
+            "id": 29,
+            "name": "Samoa",
+            "capital": "Apia",
+            "language": "Samoan, English",
+            "tipping": "Tipping is not customary",
+            "hello": "Talofa",
+            "thankYou": "Fa'afetai",
+            "passportVisa": "Visa on arrival for most visitors; check specific requirements",
+            "food": "Palusami, Oka, Panipopo"
+        },
+        {
+            "id": 30,
+            "name": "New Zealand",
+            "capital": "Wellington",
+            "language": "English, Māori",
+            "tipping": "Tipping is not customary, but rounding up the bill or leaving a small tip is appreciated in some situations",
+            "hello": "Kia ora (Māori), Hello (English)",
+            "thankYou": "Kia ora (Māori), Thank you (English)",
+            "passportVisa": "Electronic Travel Authority (ETA) for most visitors",
+            "food": "Fish and Chips, Pavlova, Hangi"
+        }
+    ]
+    
+}
