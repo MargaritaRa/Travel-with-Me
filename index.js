@@ -30,7 +30,7 @@ function displayCountriesDetails(country){
     document.querySelector("#countries-food").textContent = country.food;
 }
 
-let form = document.querySelector("form")
+const form = document.querySelector("form")
 form.addEventListener('submit', event => {
     event.preventDefault()
     buildToDo(event.target.new_todo.value)
