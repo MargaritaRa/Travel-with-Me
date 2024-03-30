@@ -18,7 +18,7 @@ fetch("http://localhost:3000/countries")
     });
 
 // add a class to the html and add that to the fetch.
-//htne when us the class to edit something on css.
+//then use the class to edit something on css.
 
 function displayCountriesDetails(country){
     document.querySelector("#countries-capital").textContent = country.capital;
